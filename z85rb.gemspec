@@ -8,7 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Z85rb::VERSION
   spec.authors       = ["Jakukyo Friel"]
   spec.email         = ["weakish@gmail.com"]
-  spec.description   = %q{Pure Ruby implementiation of Z85 encoding.}
+  spec.description   = %q{Pure Ruby implementiation of Z85 encoding.
+                          A drop-in replace for Z85 C extension for Ruby.}
   spec.summary       = %q{Pure Ruby implementiation of Z85 encoding.}
   spec.homepage      = "https://github.com/weakish/z85rb"
   spec.license       = "0BSD"
