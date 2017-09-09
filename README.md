@@ -18,8 +18,9 @@ Or install it yourself as:
 ## Usage
 
 ```rb
-encode("\x86\x4f\xd2\x6f\xb5\x59\xf7\x5b") # => 'HelloWorld'
-decode('nm=QNzY&b1A+]nf') # => 'Hello World!'
+require 'z85rb'
+Z85rb.encode("\x86\x4f\xd2\x6f\xb5\x59\xf7\x5b") # => 'HelloWorld'
+Z85rb.decode('nm=QNzY&b1A+]nf') # => 'Hello World!'
 ```
 
 Encoding data not padded to a multiple of 4 will raise `ArgumentError`.
